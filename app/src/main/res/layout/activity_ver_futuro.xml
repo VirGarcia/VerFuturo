@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:padding="1dp"
+    tools:context=".ActivityVerFuturo">
+
+    <ImageView
+        android:id="@+id/imgSignoZodiaco"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:srcCompat="@drawable/aries" />
+
+    <EditText
+        android:id="@+id/txtFuturo"
+        android:layout_width="match_parent"
+        android:layout_height="462dp"
+        android:ems="0"
+        android:fontFamily="serif-monospace"
+        android:inputType="text|textMultiLine"
+        android:text="Aquí veremos tu futuro"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="110px" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="500px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#E60E0E"
+        android:fontFamily="sans-serif-black"
+        android:rotation="-8"
+        android:text="Volver"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+</LinearLayout>
